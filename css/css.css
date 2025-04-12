@@ -1,0 +1,247 @@
+body
+{
+    font-family:Arial, Helvetica, sans-serif;
+}
+:root
+{
+    --red:#B23850;
+    --light-blue:#3b8beb;
+    --beige:#e7e3d4;
+    --grey:#71798b;
+}
+/* start navbar */
+.navbar
+{
+    background-color: var(--light-blue);
+   
+}
+
+.navbar img
+{
+    width: 50px;
+    height: 50px;
+}
+.navbar-toggler-icon
+{
+color: white;
+}
+.dropdown-item
+{
+    /* background-color: var(--light-blue); */
+    color: var(--light-blue);
+}
+/* end navbar */
+/* start carousel */
+.carousel-item img
+{
+height: 100vh;
+object-fit:fill;
+width: 100%;
+}
+.myicon
+{
+    color: var(--light-blue);
+    font-size: 30px;
+}
+.carousel-caption
+{
+    background-color:#3b8beb73;
+border-radius: 20px;
+}
+.carousel-caption:hover
+{transition:ease-in-out .7s;
+    background-color:#2e79d5a8 ;
+}
+.carousel-indicators button
+{
+    height: 15px !important;
+    width: 15px !important;
+    border-radius: 50% !important;
+  
+}
+.btn-dark:hover
+{transition: 1s ease;
+    background-color: crimson;
+    border-radius: 20px;
+}
+/* end carousel */
+/* start offcanvas */
+.offcanvas-title
+{
+    color: var(--light-blue);
+}
+.offcanvas img
+{
+    width: 95%;
+    height: 350px;
+}
+.offcanvas img:hover
+{
+    transform: rotate(2deg);
+    transition: ease all .3s;
+}
+.off-canv-p
+{
+    color: var(--red);
+    margin-bottom: .3rem;
+}
+.offcanvas h4
+{
+    color: var(--grey);
+}
+/* end offcanvas */
+/* start products */
+.main-header
+{
+border-bottom:5px solid var(--red);
+border-radius: 4px;
+color: var(--light-blue);
+}
+.btn-primary:hover
+{
+background-color: var(--red);
+border-radius: 15px;
+transition: .5s all ease-in-out;
+}
+.products h5
+{
+color: var(--grey);
+}
+.products p
+{
+    color: var(--red);
+}
+.stars
+{
+    color: var(--light-blue);
+}
+.stars:hover
+{
+    color: var(--red);
+    transition: .5s all ease-in-out;
+cursor: pointer;
+}
+.card
+{
+    overflow: hidden;
+  
+}
+.card img
+{
+      transition:.5s all ease;
+      height: 250px;
+     
+    
+}
+.card img:hover
+{
+    scale: 1.1;
+}
+/* end products */
+/* start modal */
+.small-carousel img
+{
+height: 200px;
+}
+.blue
+{
+    color: var(--light-blue);
+}
+.red
+{
+    color: var(--red);
+}
+/* end modal */
+/* start contact */
+.contact
+{
+height: 60vh;
+background: url("../images/pexels-nietjuhart-934070.jpg");
+background-size: cover;
+background-attachment: fixed;
+}
+.contact h2
+{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+/* end contact */
+/* start special order */
+/* end special order */
+/* start best seller */
+.best img
+{
+    transition: .3s all ease;
+}
+.best img:hover
+{
+   scale: 1.1;
+    transform: rotate(5deg);
+}
+@media (max-width:767px) {
+    .best .row div
+    {text-align: center;
+        display: flex;
+        flex-direction: column ;
+        justify-content: center;
+    }
+        .best .row div img
+        {
+width: 50% !important;
+        }
+}
+/* end best seller */
+/* start questions */
+.questions .card 
+{
+    background-color: var(--beige);
+}
+.accordion-body
+{
+    color: var(--grey);
+}
+/* end questions */
+/* start services */
+@media(max-width:767px)
+{
+    .services img
+    {
+        width: 50%;
+    }
+     .services p
+     {margin: auto;
+width: 90%;
+     }
+}
+
+/* end services */
+/* start footer */
+.footer
+{
+    background-color: var(--light-blue);
+}
+.footer ul
+{
+    list-style: none;
+    padding-left: 0rem;
+}
+
+
+/* end footer */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--red); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #be7979; 
+}
